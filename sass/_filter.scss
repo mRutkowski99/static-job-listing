@@ -1,0 +1,60 @@
+.filter {
+  max-width: 110rem;
+  margin: -9rem auto 5rem auto;
+  padding: 1.5rem 3rem;
+  border-radius: 0.5rem;
+  background-color: $clr-white;
+  box-shadow: 0 1rem 2.5rem rgba($clr-primary, 0.4);
+  font-weight: 700;
+  font-size: 1.3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+
+  &__list {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+
+  &__item {
+    display: flex;
+    border-radius: 0.5rem;
+    overflow: hidden;
+  }
+
+  &__selected {
+    background-color: $clr-filter-tablets;
+    padding: 0.5rem 1rem 0.3rem 1rem;
+  }
+
+  &__remove {
+    width: 3rem;
+    background-color: $clr-primary;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.2s;
+
+    &:hover {
+      background-color: $clr-grayish-cyan-dark;
+    }
+
+    img {
+      width: 40%;
+    }
+  }
+
+  &__clear {
+    text-decoration: none;
+    color: $clr-primary;
+    transition: all 0.2s;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

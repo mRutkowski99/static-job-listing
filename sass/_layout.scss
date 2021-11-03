@@ -1,0 +1,25 @@
+.banner {
+  height: 30vh;
+  max-height: 15rem;
+  background-image: url(../images/bg-header-mobile.svg),
+    linear-gradient(hsl(180, 29%, 44%), hsl(180, 29%, 44%));
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  @media screen and (min-width: $bp) {
+    background-image: url(../images/bg-header-desktop.svg),
+      linear-gradient(hsl(180, 29%, 44%), hsl(180, 29%, 44%));
+    height: 25vh;
+  }
+}
+
+.offers-container {
+  min-height: calc(100vh - 15rem);
+  background-color: $clr-bg;
+  padding: 6rem 5% 3rem 5%;
+
+  @media screen and (min-width: $bp) {
+    min-height: 85vh;
+  }
+}

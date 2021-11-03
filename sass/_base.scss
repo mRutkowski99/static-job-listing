@@ -1,0 +1,59 @@
+//COLORS
+$clr-primary: hsl(180, 29%, 50%);
+$clr-bg: hsl(180, 52%, 96%);
+$clr-filter-tablets: hsl(180, 31%, 95%);
+$clr-grayish-cyan: hsl(180, 8%, 52%);
+$clr-grayish-cyan-dark: hsl(180, 14%, 20%);
+
+$clr-white: #fff;
+
+//BREAKPOINNTS
+$bp: 900px;
+
+//RESET
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+html {
+  font-size: 62.5%; //1rem = 10px
+}
+
+body {
+  font-family: "Spartan", sans-serif;
+  font-weight: 500;
+  line-height: 1.5;
+  font-size: 1.5rem;
+  color: $clr-primary;
+  min-height: 100vh;
+}
+
+//https://github.com/sass/sass/issues/2849#issuecomment-621991522
+@function css-function($function, $values...) {
+  @return $function + unquote("(") + $values + unquote(")");
+}
+
+@function css-min($values...) {
+  @return css-function(min, $values);
+}
+
+@function css-max($values...) {
+  @return css-function(max, $values);
+}
+
+@function css-clamp($values...) {
+  @return css-function(clamp, $values);
+}
+
+.hidden {
+  display: none !important;
+}
