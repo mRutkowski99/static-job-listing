@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](FireShot Capture 001 - Frontend Mentor - Job Listings - 127.0.0.1.png)
 
 
 ### Links
