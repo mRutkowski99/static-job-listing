@@ -7,7 +7,6 @@ This is a solution to the [Job listings with filtering challenge on Frontend Men
   - [Screenshot](#screenshot)
   - [Links](#links)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
 
 
 ## Overview
@@ -31,17 +30,12 @@ Users should be able to:
 
 <!-- - Live Site URL: [Add live site URL here](https://your-live-site-url.com) -->
 
-## My process
-
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
+- SCSS
 - Flexbox
 - Mobile-first workflow
 - Vanilla JavaScript
-
-### What I learned
-
-- Continue practising Sass
-- Practising MCV architecture 
+- Object Orienrted JS (MVC)
