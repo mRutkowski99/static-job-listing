@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-<!-- - Live Site URL: [Add live site URL here](https://your-live-site-url.com) -->
+- Live URL: [View Live](https://mrutkowski99.github.io/static-job-listing/index.html)
 
 ### Built with
 
